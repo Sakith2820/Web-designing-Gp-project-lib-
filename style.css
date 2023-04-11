@@ -94,6 +94,9 @@ margin-top:-1%;
     background-color:rgb(4, 0, 0,0.6    );
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+  .bookli{
+    text-decoration: none;
+  }
   .books:hover{
     box-shadow: 8px 8px 8px rgba(6, 6, 0, 0.3);
   }
