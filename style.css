@@ -32,7 +32,7 @@ body {
 
 /* My book shelf text*/
 .My{
-    color:red;
+    color:aquamarine;
     font-style: italics;
 
 }
@@ -106,7 +106,7 @@ body {
     text-decoration: none;
   }
   .books:hover{
-    box-shadow: 8px 8px 8px rgba(6, 6, 0, 0.3);
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.5);
   }
   .au{
     color: aquamarine;
@@ -121,7 +121,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     font-size: 60px;
     margin-left: 30%;
-    color:goldenrod;
+    color:aquamarine;
   }
     /*about,support, terms and condition*/
   .ab{
