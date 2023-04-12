@@ -9,7 +9,10 @@ height:101%;
 margin-left: -1%;
 margin-top:-1%;
 
+}
 
+body {
+  background-color: #333333;
 }
 
 .a{
@@ -94,6 +97,11 @@ margin-top:-1%;
     background-color:rgb(4, 0, 0,0.6    );
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
+
+.books img {
+  border-radius: 10px;
+}
+
   .bookli{
     text-decoration: none;
   }
