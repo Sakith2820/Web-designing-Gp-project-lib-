@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.sub-nav
+    h1(style='font-size: 50px;') GLOBAL DIGITAL LIBRARY
+    p(style='font-size: 20px;') A hub of knowledge for transformation
+  div.book-container
+    each book in book_list
+      div.book
+        div.image
+          img(src="/images/bk1.jpg" alt='image')
+        div.details
+          a(href=book.url) #{book.title}
+          p(style='font-size: 15px;') #{book.author.name}

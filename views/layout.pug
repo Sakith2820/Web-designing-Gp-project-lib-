@@ -1,0 +1,38 @@
+doctype html
+html(lang='en')
+  head
+    title= title
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    script(src="https://code.jquery.com/jquery-3.5.1.slim.min.js", integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj", crossorigin="anonymous")
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    nav.navbar.navbar-inverse.navbar-fixed-top.nav-bar
+      .container-fluid
+        .navbar-header
+            p.home-icon ≡
+        ul.nav.navbar-nav
+          li
+            a(href='/catalog/books' style='color:grey;') Home
+          li
+            a(href='/catalog/genres' style='color:grey;') Genres
+          li
+            a(href='/catalog/authors' style='color:grey;') Authors
+          li
+            a(href='/catalog/bookinstances' style='color:grey;') Book Instances
+          li 
+          <div class="dropdown">
+            <button class="dropbtn">︾</button>
+            <div class="dropdown-content">
+              <a href="/catalog/book/create">Add book</a>
+              <a href="/catalog/author/create">Add Author</a>
+              <a href="/catalog/genre/create">Add Genre</a>
+              <a href="/catalog/bookinstance/create">Add Book Instance</a>
+
+            </div>
+          </div>
+    div.main-container 
+      div.main-content
+        block content   
+    
