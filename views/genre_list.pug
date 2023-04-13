@@ -1,0 +1,12 @@
+extends layout 
+
+block content 
+    div(style="text-align: center;")
+        h1(style='font-size: 60px; font-weight: bold;') Genres 
+        h3 Browse books by genres
+    div(style='display: flex; flex-wrap: wrap; width:1100px;' )
+        each genre in genre_list 
+            div.genre-box(style='display:flex; align-items: center; justify-content:center; background-color: #acc1d2;')
+                div
+                    a(href=genre.url style='font-size: 18px; color:white;') #{genre.name}
+            | 
